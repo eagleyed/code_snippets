@@ -110,3 +110,10 @@ In case of an error check the log under with `journalctl -xe`
 In the last step we logged in wordpress >> Settings >> General and replaced our current domain setting with https:// version.
 
 ![alt text](wordpress_config_1.png "nano apache ssl config")
+
+To make sure all HTTP trafic is redirect to HTTPS without the need of touching any code, install the 
+[WP Force SSL](https://wordpress.org/plugins/wp-force-ssl/) WordPress Plugin. 
+
+
+## Check your SSL website status
+Use https://www.ssllabs.com/ssltest/index.html
