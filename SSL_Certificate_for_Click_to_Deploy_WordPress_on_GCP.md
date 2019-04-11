@@ -13,7 +13,7 @@ Source which has some typos and errors on it [Medium article](https://medium.com
 ## 3. Generate Certificates
 `./certbot-auto certonly --webroot -w /var/www/html -d demo.gravity.global`
 
-/etc/letsencrypt/archive and /etc/letsencrypt/keys contain all previous keys and certificates, while /etc/letsencrypt/live symlinks to the latest versions.
+`/etc/letsencrypt/archive` and `/etc/letsencrypt/keys` contains all previous keys and certificates, while `/etc/letsencrypt/live` symlinks to the latest versions.
 
 `sudo ls -la /etc/letsencrypt/live/demo.gravity.global`
 
@@ -30,6 +30,7 @@ lrwxrwxrwx 1 root root   46 Apr 11 09:06 privkey.pem -> ../../archive/demo.gravi
 ## 4. Test Certificate Renewal
 `sudo ./certbot-auto renew`
 
+Expected result:
 ```
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
