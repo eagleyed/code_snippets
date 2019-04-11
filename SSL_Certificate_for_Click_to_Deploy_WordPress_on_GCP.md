@@ -1,5 +1,6 @@
 # Setup SSL Certificate for Click to Deploy WordPress on GCP
-Source which has some typos and errors on it [Medium article](https://medium.com/@upcscfatehabad/how-to-setup-ssl-certificate-for-click-to-deploy-wordpress-on-gcp-fe7e55bd2c27)
+Source was a medium article which has some typos and syntax errors [(Medium article)](https://medium.com/@upcscfatehabad/how-to-setup-ssl-certificate-for-click-to-deploy-wordpress-on-gcp-fe7e55bd2c27). But it helped a good bit to install and configure [certbot](https://certbot.eff.org/) on the Google Cloud Platform WordPress.
+
 
 ***
 
