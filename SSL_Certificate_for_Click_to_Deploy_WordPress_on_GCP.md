@@ -65,4 +65,12 @@ Order allow,deny
 allow from all
 </Directory>
 ```
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "nano apache ssl config")
+![alt text](nano_apache_config_1.PNG "nano apache ssl config")
+
+Use # sign to existing snakeoil certificates and paste below path to your three SSL certificate as shown in below command :
+
+![alt text](nano_apache_config_2.PNG "nano apache ssl config")
+
+`SSLCertificateFile “/etc/letsencrypt/live/demo.gravity.global/cert.pem”`
+`SSLCertificateKeyFile “/etc/letsencrypt/live/demo.gravity.global/privkey.pem”`
+`SSLCertificateChainFile “/etc/letsencrypt/live/demo.gravity.global/chain.pem”`
